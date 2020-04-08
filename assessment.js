@@ -20,7 +20,7 @@
       if (userName.length === 0) { // 名前が空の時は処理を終了する
           return;
       }
-
+    
       // 診断結果表示エリアの作成
       removeAllChildren(resultDivided);
       const header = document.createElement('h3');
